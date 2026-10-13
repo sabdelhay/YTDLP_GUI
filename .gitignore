@@ -1,0 +1,85 @@
+##############################
+# Build & Publish Folders
+##############################
+bin/
+obj/
+publish/
+installer/
+artifacts/
+out/
+
+##############################
+# Runtime Dependencies (downloaded at app startup)
+##############################
+FoodYtDlp/
+FoodYtDlp/yt-dlp/
+FoodYtDlp/ffmpeg/
+
+##############################
+# WebView2 Cache & Runtime
+##############################
+EBWebView/
+Microsoft.WebView2.FixedVersionRuntime/
+Microsoft.WebView2/
+
+##############################
+# Visual Studio / VS Code
+##############################
+.vscode/
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+*.opendb
+
+##############################
+# Logs
+##############################
+*.log
+
+##############################
+# NuGet Packages
+##############################
+packages/
+*.nupkg
+
+##############################
+# Temporary Files
+##############################
+*.tmp
+*.temp
+*.bak
+
+##############################
+# OS Files
+##############################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+##############################
+# JetBrains Rider
+##############################
+.idea/
+*.sln.iml
+
+##############################
+# Ignore EXEs and DLLs not part of source
+##############################
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+
+##############################
+# Allow your actual app EXE (source-built)
+##############################
+!YTDLP_GUI.exe
+
+##############################
+# Ignore installer outputs
+##############################
+*.msi
+*.iss.tmp
